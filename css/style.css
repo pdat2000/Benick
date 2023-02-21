@@ -1,0 +1,154 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap");
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  background-color: #f4f7fc;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav-menu {
+  display: flex;
+  align: center;
+  justify-content: space-between;
+  padding: 21px 35px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 25px 25px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.04);
+}
+.nav-menu-down {
+  width: 10px;
+  height: 10px;
+  align-self: center;
+}
+.nav-logo {
+  display: flex;
+  display: center;
+  gap: 10px;
+}
+.nav-menu-list {
+  display: flex;
+  align: center;
+  justify-content: space-between;
+  width: 490px;
+}
+.nav-menu-item {
+  align-self: center;
+  transition: all 0.2s linear;
+}
+.nav-menu-item:hover .nav-menu-link::before {
+  visibility: visible;
+}
+.nav-menu-item:last-child {
+  display: flex;
+  display: center;
+  gap: 5px;
+}
+.nav-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #627193;
+  position: relative;
+  transition: all 0.2s linear;
+}
+.nav-menu-link:hover {
+  color: #00005c;
+  font-weight: 500;
+}
+.nav-menu-link::before {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  background-color: #00005c;
+  width: 50%;
+  height: 2px;
+  visibility: hidden;
+}
+.nav-right {
+  display: flex;
+  display: center;
+  gap: 15px;
+}
+.nav-getStarted {
+  padding: 15px 21px 14px 22px;
+  background-color: #3c50e0;
+  color: #f4f7fc;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.nav-singin {
+  align-self: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-logo-image1 {
+  width: 36px;
+  height: 36px;
+  align-self: center;
+}
+.nav-logo-image2 {
+  width: 86px;
+  height: 18px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */

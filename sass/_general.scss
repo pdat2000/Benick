@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap");
+  font-family: $primary-font;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  background-color: $background-color;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+input,
+button {
+  outline: none;
+}
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
